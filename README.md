@@ -2,8 +2,11 @@
 This repo will guide you on installation steps for Grafana, Prometheus, Prometheus Blackbox and node exporter via helm charts to monitor a Kubernetes Cluster.
 
 ## Install Helm charts
+[Grafana Helm Chart](https://artifacthub.io/packages/helm/grafana/grafana)
+[Prometheus Helm Chart](https://artifacthub.io/packages/helm/prometheus-community/prometheus)
+feel free to customize the values file
 ```
-
+./setup.sh
 ```
 
 ## Metrics to track
