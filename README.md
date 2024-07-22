@@ -62,6 +62,8 @@ You can import dashboard ```7587``` or browse out dashboards from [grafana dashb
 
 <img width="1440" alt="image" src="https://github.com/Mbaoma/monitoring-stack/assets/49791498/7f44b39d-0647-443a-bff9-410c72c34235">
 
+<img width="1119" alt="image" src="https://github.com/user-attachments/assets/caac5005-1af2-47a4-a005-a929947ae5c8">
+
 ## Alerting (send alerts to a Slack channel)
 Add webhook
 <img width="1020" alt="image" src="https://github.com/Mbaoma/monitoring-stack/assets/49791498/d2f28680-cbed-4817-90dc-f8cb2329cb3e">
