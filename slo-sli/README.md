@@ -1,8 +1,9 @@
 ## Latency
+*measured in milliseconds and be a line graph*
 - SLO: 90% of requests served within 50ms over the last 30 seconds
 - SLI: buckets of requests in a histogram showing the 90th percentile over the last 30 seconds
 
-<img width="1130" alt="image" src="https://github.com/user-attachments/assets/2bfe1988-e612-420d-954c-2085ef2fef44">
+<img width="1130" alt="image" src="https://github.com/user-attachments/assets/20f8a7bd-0084-4048-b653-657810123dc9">
 
 Query
 ```
@@ -11,10 +12,11 @@ sum(rate(apiserver_request_duration_seconds_bucket{job="kubernetes-apiservers"}[
 ```
 
 ## Availability
+* a single number showing a percentage*
 - SLO: 90% availability
 - SLI: total number of successful requests / total number of requests
 
-<img width="1130" alt="image" src="https://github.com/user-attachments/assets/e3346e9f-1af7-4ee2-bab9-35af78ac7f4f">
+<img width="1130" alt="image" src="https://github.com/user-attachments/assets/9d32ec35-d4b0-4e16-92f4-f7e39a91023b">
 
 Query
 ```
@@ -24,7 +26,8 @@ sum (rate(apiserver_request_total{job="kubernetes-apiservers"}[2d]))
 ```
 
 ## Error Budget
-<img width="1130" alt="image" src="https://github.com/user-attachments/assets/2b3b1f6b-57e1-4692-84aa-5fea86418ec4">
+*a line graph showing a percentage*
+<img width="1130" alt="image" src="https://github.com/user-attachments/assets/81a3c793-93db-4ee4-8b50-cc329d6ee683">
 
 Query
 ```
@@ -32,7 +35,8 @@ Query
 ```
 
 ## Throughput
-<img width="1130" alt="image" src="https://github.com/user-attachments/assets/55d2c5aa-d956-418c-adf5-eb4f7abf925c">
+*a line graph showing RPS (requests per second)*
+<img width="1130" alt="image" src="https://github.com/user-attachments/assets/8aa33f5e-8f4d-48af-bab6-62c68f26bf42">
 
 Query
 ```
