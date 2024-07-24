@@ -36,7 +36,7 @@ Query
 
 ## Throughput
 *a line graph showing RPS (requests per second)*
-<img width="1130" alt="image" src="https://github.com/user-attachments/assets/8aa33f5e-8f4d-48af-bab6-62c68f26bf42">
+<img width="1130" alt="image" src="https://github.com/user-attachments/assets/69350f8b-19b3-463e-a1eb-f0262e2d2b42">
 
 Query
 ```
